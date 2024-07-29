@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   
   function editStudent(id) {
-    // Implement edit functionality
+   
   }
   
   function deleteStudent(id) {

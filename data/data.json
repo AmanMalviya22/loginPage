@@ -1,8 +1,15 @@
+
 [
   {
     "name": "aman",
     "age": "22",
     "email": "aman@gmail.com",
     "id": 1
+  },
+  {
+    "name": "shivani",
+    "age": "30",
+    "email": "shivani@gmail.com",
+    "id": 2
   }
 ]

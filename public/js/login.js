@@ -6,7 +6,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
     if (username === 'admin' && password === 'password') {
       window.location.href = 'dashboard.html';
     } else {
-      alert('Invalid credentials');
+      alert('Wrong username and password');
     }
   });
   
