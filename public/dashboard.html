@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    <h1>Student Dashboard</h1>
+    <button onclick="showAddStudentForm()">Add Student</button>
+    <div id="student-form" style="display:none;">
+      <form id="add-student-form">
+        <input type="text" id="student-name" placeholder="Name" required>
+        <input type="number" id="student-age" placeholder="Age" required>
+        <input type="email" id="student-email" placeholder="Email" required>
+        <button type="submit">Save</button>
+      </form>
+    </div>
+    <table id="student-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Email</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Student rows will be appended here -->
+      </tbody>
+    </table>
+  </div>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
